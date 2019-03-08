@@ -1,0 +1,179 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    background: #fff;
+    color: #383a3c;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.25;
+    font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+a,
+button {
+    outline: none;
+}
+
+a {
+    color: #566473;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #34495e;
+}
+
+section {
+    padding: 1em;
+    text-align: center;
+}
+
+p.ref {
+    text-align: center;
+    padding: 2em 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#frame {
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    /*float: right;*/
+    /*border:1px solid #000;*/
+    position: absolute;
+    top: 130px;
+    right: 0px;
+}
+
+.strap {
+    display: none;
+}
+
+#header li {
+    display: inline;
+    padding: 30px;
+}
+
+#header li {
+    text-decoration: none;
+    /*color: #000;*/
+}
+
+.active {
+    color: #F56600;
+}
+
+#header {
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#header span {
+    color: #E0E0E0;
+}
+
+.strap .text {
+    padding-left: 30px;
+    display: block;
+    background: #fff;
+    border-radius: 25px;
+    width: 340px;
+    height: 50px;
+    margin: 15px auto;
+    outline: none;
+}
+
+.submit {
+    display: block;
+    width: 340px;
+    height: 50px;
+    margin: 23px auto;
+    color: #fff;
+    border-radius: 25px;
+    background: #F56600;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.regiset {
+    background: #3FA156;
+}
+
+.ercode {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #ccc;
+    margin: 80px auto;
+}
+
+.enroll {
+    text-align: center;
+    margin-top: -5px;
+    color: #747474;
+}
+
+.enroll a {
+    text-decoration: none;
+}
+
+.enroll ol {
+    font-size: 14px;
+    display: inline;
+    cursor: pointer;
+}
+
+.enroll ol a:hover {
+    color: #F56600;
+}
+
+.btm {
+    position: relative;
+    top: 15px;
+    margin: 130px auto 0;
+    width: 105px;
+    left: 40px;
+}
+
+.btm .foot {
+    width: 680px;
+    background: #fff;
+    margin: auto;
+    margin-left: -520px;
+}
+
+.btm span {
+    font-size: 14px;
+    color: #888888;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btm .left {
+    margin-left: -100px;
+}
